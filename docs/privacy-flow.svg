@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 276" width="960" height="276" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#86868B"/>
+    </marker>
+  </defs>
+
+  <!-- Outer Canvas -->
+  <rect x="1" y="1" width="958" height="274" rx="20" fill="#F5F5F7" stroke="#E5E5EA" stroke-width="2"/>
+
+  <!-- Header -->
+  <text x="30" y="34" fill="#1D1D1F" font-size="15" font-weight="700">Honest Privacy &amp; KVKK Gate - How Sensitive Data Is Stripped Locally</text>
+
+  <!-- Card 1: Raw Contract -->
+  <rect x="30" y="56" width="210" height="196" rx="12" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.2"/>
+  <text x="44" y="78" fill="#D93025" font-size="10.5" font-weight="700" letter-spacing="0.6">STEP 1 - RAW CONTRACT</text>
+  <rect x="42" y="90" width="186" height="118" rx="8" fill="#F5F5F7"/>
+  <text x="52" y="110" fill="#1D1D1F" font-size="11">Tenant Ahmet Ornek</text>
+  <rect x="52" y="118" width="166" height="20" rx="4" fill="#FDECEC" stroke="#D93025" stroke-width="1"/>
+  <text x="58" y="132" fill="#D93025" font-size="10.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">ID: 11111111110</text>
+  <rect x="52" y="144" width="166" height="20" rx="4" fill="#FDECEC" stroke="#D93025" stroke-width="1"/>
+  <text x="58" y="158" fill="#D93025" font-size="10.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">IBAN: TR00 0000...</text>
+  <text x="52" y="180" fill="#6E6E73" font-size="11">...pays all remaining</text>
+  <text x="52" y="195" fill="#6E6E73" font-size="11">months if leaving early.</text>
+  <rect x="42" y="218" width="186" height="24" rx="6" fill="#FDECEC"/>
+  <text x="135" y="234" fill="#D93025" font-size="11" font-weight="700" text-anchor="middle">4 Full Pages (Sensitive)</text>
+
+  <line x1="240" y1="154" x2="256" y2="154" stroke="#86868B" stroke-width="1.8" marker-end="url(#arrow-flow)"/>
+
+  <!-- Card 2: Auto Regex -->
+  <rect x="260" y="56" width="210" height="196" rx="12" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.2"/>
+  <text x="274" y="78" fill="#1D8A4E" font-size="10.5" font-weight="700" letter-spacing="0.6">STEP 2 - AUTO REGEX</text>
+  <rect x="272" y="90" width="186" height="118" rx="8" fill="#F5F5F7"/>
+  <text x="282" y="110" fill="#1D1D1F" font-size="11">Tenant Ahmet Ornek</text>
+  <rect x="282" y="118" width="166" height="20" rx="4" fill="#EAF7F0" stroke="#1D8A4E" stroke-width="1"/>
+  <text x="288" y="132" fill="#1D8A4E" font-size="10.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">[REDACTED_ID]</text>
+  <rect x="282" y="144" width="166" height="20" rx="4" fill="#EAF7F0" stroke="#1D8A4E" stroke-width="1"/>
+  <text x="288" y="158" fill="#1D8A4E" font-size="10.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">[REDACTED_IBAN]</text>
+  <text x="282" y="180" fill="#6E6E73" font-size="11">...pays all remaining</text>
+  <text x="282" y="195" fill="#6E6E73" font-size="11">months if leaving early.</text>
+  <rect x="272" y="218" width="186" height="24" rx="6" fill="#EAF7F0"/>
+  <text x="365" y="234" fill="#1D8A4E" font-size="11" font-weight="700" text-anchor="middle">Structured PII Stripped</text>
+
+  <line x1="470" y1="154" x2="486" y2="154" stroke="#86868B" stroke-width="1.8" marker-end="url(#arrow-flow)"/>
+
+  <!-- Card 3: Slice + Edit -->
+  <rect x="490" y="56" width="210" height="196" rx="12" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.2"/>
+  <text x="504" y="78" fill="#B45309" font-size="10.5" font-weight="700" letter-spacing="0.6">STEP 3 - SLICE + EDIT</text>
+  <rect x="502" y="90" width="186" height="118" rx="8" fill="#F5F5F7"/>
+  <text x="512" y="110" fill="#6E6E73" font-size="11">Drops 3 safe pages</text>
+  <text x="512" y="126" fill="#1D8A4E" font-size="11" font-weight="600">Keeps 1 risky clause</text>
+  <text x="512" y="146" fill="#B45309" font-size="10.5" font-weight="600">User clears name in 2 sec:</text>
+  <rect x="510" y="154" width="170" height="46" rx="4" fill="#FEF6E7" stroke="#B45309" stroke-width="1"/>
+  <text x="516" y="172" fill="#1D1D1F" font-size="10.5">"[REDACTED] pays all</text>
+  <text x="516" y="189" fill="#1D1D1F" font-size="10.5">remaining months..."</text>
+  <rect x="502" y="218" width="186" height="24" rx="6" fill="#FEF6E7"/>
+  <text x="595" y="234" fill="#B45309" font-size="11" font-weight="700" text-anchor="middle">Editable 2-Sec Gate</text>
+
+  <line x1="700" y1="154" x2="716" y2="154" stroke="#86868B" stroke-width="1.8" marker-end="url(#arrow-flow)"/>
+
+  <!-- Card 4: Safe Result -->
+  <rect x="720" y="56" width="210" height="196" rx="12" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.2"/>
+  <text x="734" y="78" fill="#0071E3" font-size="10.5" font-weight="700" letter-spacing="0.6">STEP 4 - SAFE RESULT</text>
+  <rect x="732" y="90" width="186" height="118" rx="8" fill="#F5F5F7"/>
+  <text x="742" y="114" fill="#1D8A4E" font-size="11" font-weight="600">Offline: 0 bytes sent</text>
+  <text x="742" y="136" fill="#6E6E73" font-size="11">AI Mode: Snippet only</text>
+  <text x="742" y="162" fill="#D93025" font-size="11" font-weight="700">Risk: Early Exit Penalty</text>
+  <text x="742" y="184" fill="#0071E3" font-size="11" font-weight="700">Counter-Clause Ready</text>
+  <rect x="732" y="218" width="186" height="24" rx="6" fill="#EDF4FC"/>
+  <text x="825" y="234" fill="#0071E3" font-size="11" font-weight="700" text-anchor="middle">KVKK / GDPR Safe</text>
+</svg>
